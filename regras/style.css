@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: green;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+li {
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.marrom{
+    color: darkred;
+}
+
+.verdeClaro{
+    color: lightgreen;
+}
